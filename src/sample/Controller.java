@@ -135,13 +135,6 @@ class MyfirstToastFX {
         }
 
 
-
-        public Builder addAttributionText(String attribution_name) {
-            this.attributiontext = " • " + attribution_name;
-            return this;
-        }
-
-
         public Builder backgroundOpacity(double backgroundOpacity) {
             this.backgroundOpacity = backgroundOpacity;
             return this;
