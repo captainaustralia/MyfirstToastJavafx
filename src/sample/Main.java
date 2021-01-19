@@ -41,7 +41,7 @@ public class Main extends Application {
                         primaryStage.setTitle("Hello");
                         primaryStage.setWidth(300);
                         primaryStage.setHeight(100);
-                        Label HelloLabel = new Label("asd");
+                        Label HelloLabel = new Label(b);
                         HelloLabel.setAlignment(Pos.CENTER);
                         Scene primaryScene = new Scene(HelloLabel);
                         primaryStage.setScene(primaryScene);
